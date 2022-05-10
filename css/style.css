@@ -1,0 +1,121 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+body{
+    background-color: #1eb8b3;
+}
+.div1{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.div1 h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: linear-gradient(to top, #178f8b,#04a19c, #000000, #05c585, #3ff109 );
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    font-weight: 900;
+    font-size: 60px;
+    margin-bottom: 0;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+header .card{
+    background: #e9e9e9;
+    border-radius: 10px;
+    width: 150px;
+    height: 200px;
+    margin-left: 5px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+header .card h1{
+    color: #000000c0;
+    font-size: 10rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.iniciar {
+    display: flex;
+    flex-direction:row;
+    justify-content: end;
+    align-items: flex-end;
+}
+.iniciar h2{
+    margin-right: 115px;
+    color: #ffff;
+}
+.button {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+}
+.button input{
+    width: 50px;
+    border-radius: 20px;
+    font-weight: 700;
+    border: none;
+    background-color: #f0f0f0;
+}
+.button input:focus{
+    border-radius: 10px;
+    transition: .5s;
+    color: #000000;
+}
+button{
+    margin-right: 100px;
+    border: none;
+    background-color: transparent;
+}
+
+button img {
+    width: 100px;
+    cursor: pointer;   
+    border: #1eb8b3 1px solid;
+}
+button img:hover{
+    opacity: 0.8;
+    transition: .5s;
+}
+button img:active{
+    opacity: 0.5;
+    transition: none;
+}
+
+.resultado:active{
+    transition: 2s ease-in;
+    
+}
+/*           RESPONSIVIDADE             */
+
+@media only screen and (max-width: 999px) {
+    button{
+        margin-right: 0px;
+        border: none;
+        background-color: transparent;
+    }
+    .iniciar h2{
+        margin-right: 15px;
+        color: #ffff;
+    }
+}
+.button{
+    background: transparent;
+}
