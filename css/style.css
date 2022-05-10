@@ -98,10 +98,13 @@ button img:active{
     opacity: 0.5;
     transition: none;
 }
-
-.resultado:active{
-    transition: 2s ease-in;
-    
+.reset{
+    margin-top: -8.3rem;
+    margin-left: 60rem;
+    color: white;
+}
+.reset h2 {
+    margin-left: 9px;
 }
 /*           RESPONSIVIDADE             */
 

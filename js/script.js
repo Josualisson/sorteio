@@ -1,25 +1,38 @@
+var sort = document.getElementById("resultado")
+var sort1 = document.getElementById("resultado1")
+var sort2 = document.getElementById("resultado2")
+var sort3 = document.getElementById("resultado3")
+var sort4 = document.getElementById("resultado4")
+var sort5 = document.getElementById("resultado5")
 let sorteio = document.getElementById("sorteio").addEventListener("click", function sorteio(){
     
     setTimeout(() => {
-       var sort = document.getElementById("resultado")
        sort.innerHTML = Math.floor(Math.random() * 10)        
     }, 1000);
     setTimeout(() => {
-        document.getElementById("resultado1").innerHTML = Math.floor(Math.random() * 10);
+        sort1.innerHTML = Math.floor(Math.random() * 10);
     }, 2000);
     setTimeout(() => {
-        document.getElementById("resultado2").innerHTML = Math.floor(Math.random() * 10);
+        sort2.innerHTML = Math.floor(Math.random() * 10);
     }, 3000);
     setTimeout(() => {
-        document.getElementById("resultado3").innerHTML = Math.floor(Math.random() * 10);
+        sort3.innerHTML = Math.floor(Math.random() * 10);
     }, 4000);
     setTimeout(() => {
-        document.getElementById("resultado4").innerHTML = Math.floor(Math.random() * 10);
+        sort4.innerHTML = Math.floor(Math.random() * 10);
     }, 5000);
     setTimeout(() => {
-        document.getElementById("resultado5").innerHTML = Math.floor(Math.random() * 10);
+        sort5.innerHTML = Math.floor(Math.random() * 10);
     }, 6000);
 
-
     
+})
+
+let reset = document.getElementById("reset").addEventListener("click", () => {
+    sort.innerHTML = "-"
+    sort1.innerHTML = "-"
+    sort2.innerHTML = "-"
+    sort3.innerHTML = "-"
+    sort4.innerHTML = "-"
+    sort5.innerHTML = "-"
 })
