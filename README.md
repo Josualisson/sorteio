@@ -2,4 +2,4 @@
 
 ## Tecnologias usadas: HTML, CSS e JAVASCRIPT
 
-### Site: 
+### Site: https://josualisson.github.io/sorteio/
